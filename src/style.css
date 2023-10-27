@@ -1,0 +1,115 @@
+.body{
+ 
+padding: 175px 420px;
+justify-content: center;
+align-items: center;
+background: var(--cream-bg, #F2EAE2);
+}
+.card{
+  display: flex;
+  justify-content: start;
+}
+
+.group-5{
+  padding-left: 32px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+background: var(--Pure-White, #FFF);
+}
+.img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: url(src/image/Bitmap.png), lightgray 0px 0px / 100% 100% no-repeat;
+}
+.title{
+  padding-top: 20px;
+  color: var(--Aurometal-Saurus, #6C7289);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Overline */
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+
+letter-spacing: 5px;
+}
+
+
+.h2{
+  padding-top: 1px;
+  width: 200px;
+  color: var(--Gunmetal, #1C232B);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Display */
+font-family: 'Fraunces', serif;
+font-size: 32px;
+font-style: normal;
+
+line-height: 32px; /* 100% */
+}
+.p1{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 236px;
+  color: var(--Aurometal-Saurus, #6C7289);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Body */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+
+ /* 164.286% */
+}
+.price{
+  display: flex;
+  flex-direction: center;
+  
+
+  
+}
+.price-1{
+  padding-top: 1px;
+  color: var(--Deep-Aquamarine, #3D8168);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Display */
+font-family:'Fraunces', serif ;
+font-size: 32px;
+font-style: normal;
+
+
+}
+.price-2{
+  padding-top: 34px;
+ padding-left: 13px;
+  color: var(--Aurometal-Saurus, #6C7289);
+font-family: 'Fraunces', serif;
+font-size: 14px;
+font-style: normal;
+
+line-height: 23px; /* 176.923% */
+text-decoration-line: strikethrough;
+}
+.add{
+  margin-right: 32px;
+ margin-bottom: 32px;
+  width: 236px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--Deep-Aquamarine, #3D8168);
+  color: var(--Pure-White, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Button Text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+
+line-height: normal;
+}
+.svg{
+  padding: 1px;
+}
